@@ -1,0 +1,6 @@
+---
+scripts:
+  setup: |
+    set -e
+    mise trust
+    mise install
