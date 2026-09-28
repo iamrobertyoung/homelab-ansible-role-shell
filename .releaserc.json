@@ -2,7 +2,7 @@
   "branches": [
     "main"
   ],
-  "repositoryUrl": "https://github.com/RobertYoung/homelab-ansible-role-shell",
+  "repositoryUrl": "https://github.com/iamrobertyoung/homelab-ansible-role-shell",
   "plugins": [
     [
       "@semantic-release/commit-analyzer",
