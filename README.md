@@ -1,9 +1,9 @@
 # homelab-ansible-role-shell
 
-[![Lint](https://github.com/RobertYoung/homelab-ansible-role-shell/actions/workflows/lint.yml/badge.svg)](https://github.com/RobertYoung/homelab-ansible-role-shell/actions/workflows/lint.yml)
-[![Release](https://github.com/RobertYoung/homelab-ansible-role-shell/actions/workflows/release.yml/badge.svg)](https://github.com/RobertYoung/homelab-ansible-role-shell/actions/workflows/release.yml)
+[![Lint](https://github.com/iamrobertyoung/homelab-ansible-role-shell/actions/workflows/lint.yml/badge.svg)](https://github.com/iamrobertyoung/homelab-ansible-role-shell/actions/workflows/lint.yml)
+[![Release](https://github.com/iamrobertyoung/homelab-ansible-role-shell/actions/workflows/release.yml/badge.svg)](https://github.com/iamrobertyoung/homelab-ansible-role-shell/actions/workflows/release.yml)
 [![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://slsa.dev)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/RobertYoung/homelab-ansible-role-shell/badge)](https://securityscorecards.dev/viewer/?uri=github.com/RobertYoung/homelab-ansible-role-shell)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/iamrobertyoung/homelab-ansible-role-shell/badge)](https://securityscorecards.dev/viewer/?uri=github.com/iamrobertyoung/homelab-ansible-role-shell)
 
 Ansible role for configuring shell environments. Sets up zsh with oh-my-zsh, a custom theme, and vim configuration.
 
@@ -36,7 +36,7 @@ Run specific parts of the role using tags:
 ### Install via requirements.yml
 
 ```yaml
-- src: git@github.com:RobertYoung/homelab-ansible-role-shell.git
+- src: git@github.com:iamrobertyoung/homelab-ansible-role-shell.git
   scm: git
   version: main
   name: shell
@@ -81,7 +81,7 @@ ansible-playbook site.yml --tags "vim"
 This role uses SLSA Level 3 provenance for release artifacts. You can verify the provenance of downloaded releases using the GitHub CLI:
 
 ```bash
-gh attestation verify shell-v1.0.0.tar.gz --owner RobertYoung
+gh attestation verify shell-v1.0.0.tar.gz --owner iamrobertyoung
 ```
 
 ## Contributing
