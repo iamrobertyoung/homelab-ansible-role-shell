@@ -2,8 +2,6 @@
 
 [![Lint](https://github.com/iamrobertyoung/homelab-ansible-role-shell/actions/workflows/lint.yml/badge.svg)](https://github.com/iamrobertyoung/homelab-ansible-role-shell/actions/workflows/lint.yml)
 [![Release](https://github.com/iamrobertyoung/homelab-ansible-role-shell/actions/workflows/release.yml/badge.svg)](https://github.com/iamrobertyoung/homelab-ansible-role-shell/actions/workflows/release.yml)
-[![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://slsa.dev)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/iamrobertyoung/homelab-ansible-role-shell/badge)](https://securityscorecards.dev/viewer/?uri=github.com/iamrobertyoung/homelab-ansible-role-shell)
 
 Ansible role for configuring shell environments. Sets up zsh with oh-my-zsh, a custom theme, and vim configuration.
 
@@ -75,14 +73,6 @@ ansible-playbook site.yml --tags "vim"
 ### Vim
 - vim editor with dark theme (desert colorscheme)
 - Syntax highlighting enabled
-
-## Supply Chain Security
-
-This role uses SLSA Level 3 provenance for release artifacts. You can verify the provenance of downloaded releases using the GitHub CLI:
-
-```bash
-gh attestation verify shell-v1.0.0.tar.gz --owner iamrobertyoung
-```
 
 ## Contributing
 
