@@ -1,2 +1,6 @@
 # Default owner for everything in the repo
 * @RobertYoung
+
+# No owner, so the factory App can merge Dependabot updates without a code owner review
+/requirements.txt
+/.github/workflows/
